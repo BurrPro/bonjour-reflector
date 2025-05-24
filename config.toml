@@ -1,4 +1,4 @@
-net_interface = "en0" # Put here the network interface you want to use.
+net_interface = "ens18" # Put here the network interface you want to use.
 
 [devices]
 
