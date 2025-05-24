@@ -1,11 +1,11 @@
-net_interface = "ens18" # Put here the network interface you want to use.
+net_interface = "en0" # Put here the network interface you want to use.
 
 [devices]
 
     [devices."C0:95:6D:5B:A6:D1"]    # A shared bonjour device
-    description = "Test Chromecast"
-    origin_pool = 1078               # Tag of the VLAN the device is in
-    shared_pools = [1234, 3597]      # Tags of the VLANs which can use this device
+    description = "Lounge"
+    origin_pool = 40               # Tag of the VLAN the device is in
+    shared_pools = [0, 25, 30]      # Tags of the VLANs which can use this device
 
 #    [devices."AA:00:CC:00:EE:00"]
 #    description = "Test Spotify Air"
